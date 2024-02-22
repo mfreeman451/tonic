@@ -10,15 +10,15 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.19.6
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.27.5
 	github.com/aws/aws-sdk-go-v2/service/ses v1.14.14
-	github.com/gofiber/fiber/v2 v2.37.1
-	github.com/google/uuid v1.3.0
+	github.com/gofiber/fiber/v2 v2.52.1
+	github.com/google/uuid v1.5.0
 	github.com/joho/godotenv v1.4.0
 	github.com/opensearch-project/opensearch-go/v2 v2.2.0
 	gorm.io/gorm v1.23.8
 )
 
 require (
-	github.com/andybalholm/brotli v1.0.4 // indirect
+	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.4.4 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.12.21 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.33 // indirect
@@ -37,9 +37,13 @@ require (
 	github.com/aws/smithy-go v1.13.5 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/klauspost/compress v1.15.0 // indirect
+	github.com/klauspost/compress v1.17.0 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/mattn/go-runewidth v0.0.15 // indirect
+	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
-	github.com/valyala/fasthttp v1.40.0 // indirect
+	github.com/valyala/fasthttp v1.51.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
@@ -48,6 +52,6 @@ require (
 	github.com/aws/aws-sdk-go-v2 v1.18.0
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
-	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
 	gorm.io/driver/mysql v1.3.6
 )
